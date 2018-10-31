@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_run_mode"
+        android:title="Running Mode"
+        android:entries="@array/app_run_mode_entries"
+        android:entryValues="@array/app_run_mode_entry_values"
+        android:defaultValue="Mobile"/>
+    <SwitchPreference
+        android:key="pref_auto_update"
+        android:title="Auto Update"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="pref_read_write"
+        android:title="Read Or Write"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>
